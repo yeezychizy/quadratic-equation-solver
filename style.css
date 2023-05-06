@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Foldit:wght@300&family=Montserrat:ital,wght@1,200&display=swap');
+
+body {
+    /* font-family: 'Delicious Handrawn', cursive; */
+    font-family: 'Foldit', cursive;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-style: foldit;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    text-align: left;
+    width: 100%;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  input[type="number"] {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"] {
+    background-color: #4285f4;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    margin-top: 10px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #357ae8;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
